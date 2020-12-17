@@ -14,6 +14,23 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/aws-lambda-nodejs',
   ],
   releaseBranches: ['main', 'master'],
+
+  devDeps: [
+    '@types/aws-lambda',
+    'esbuild@^0',
+  ],
+
+  deps: [
+    'aws-lambda',
+    'aws-sdk',
+  ],
+
+  bundledDeps: [
+    'aws-lambda',
+    'aws-sdk',
+  ],
+
+  codeCov: true,
   /* AwsCdkConstructLibraryOptions */
   // cdkAssert: true,                                                          /* Install the @aws-cdk/assert library? */
   // cdkDependencies: undefined,                                               /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
