@@ -3,18 +3,17 @@ const { AwsCdkConstructLibrary } = require('projen');
 const project = new AwsCdkConstructLibrary({
   authorAddress: 'jossaq@amazon.com',
   authorName: 'Juan Ossa',
-  cdkVersion: '1.78.0',
+  cdkVersion: '1.79.0',
   name: 'jossaq-demo-backend',
   repository: 'git@github.com:jossaq/jossaq-demo-backend.git',
   defaultReleaseBranch: 'main',
-
   cdkDependencies: [
     '@aws-cdk/core',
     '@aws-cdk/aws-dynamodb',
     '@aws-cdk/aws-lambda',
     '@aws-cdk/aws-lambda-nodejs',
   ],
-
+  releaseBranches: ['main', 'master'],
   /* AwsCdkConstructLibraryOptions */
   // cdkAssert: true,                                                          /* Install the @aws-cdk/assert library? */
   // cdkDependencies: undefined,                                               /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
@@ -82,7 +81,6 @@ const project = new AwsCdkConstructLibrary({
   // pullRequestTemplateContents: undefined,                                   /* The contents of the pull request template. */
   // rebuildBot: true,                                                         /* Installs a GitHub workflow which is triggered when the comment "@projen rebuild" is added to a pull request. */
   // rebuildBotCommand: 'rebuild',                                             /* The pull request bot command to use in order to trigger a rebuild and commit of the contents of the branch. */
-  // releaseBranches: [ 'master' ],                                            /* Branches which trigger a release. */
   // releaseEveryCommit: true,                                                 /* Automatically release new versions every commit to one of branches in `releaseBranches`. */
   // releaseSchedule: undefined,                                               /* CRON schedule to trigger new releases. */
   // releaseToNpm: false,                                                      /* Automatically release to npm when new versions are introduced. */

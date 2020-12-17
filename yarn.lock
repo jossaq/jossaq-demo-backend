@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/assert@^1.78.0":
+"@aws-cdk/assert@^1.79.0":
   version "1.79.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.79.0.tgz#c30e904bff8dbabcc3ca6ee01904da1fc7a980e7"
   integrity sha512-wCiMyxhtUz82blUlSnfoqpHdSjgFOkjpunjgxT2aG5Y6RTN0ExOOm9pdKDdXnul0zml6ZvfOL51wDG0Udg7zFg==
@@ -73,7 +73,7 @@
     "@aws-cdk/core" "1.79.0"
     constructs "^3.2.0"
 
-"@aws-cdk/aws-dynamodb@^1.78.0":
+"@aws-cdk/aws-dynamodb@^1.79.0":
   version "1.79.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-dynamodb/-/aws-dynamodb-1.79.0.tgz#a7c03b3d28dddcb7430fbc3ef813dbb94796b214"
   integrity sha512-4JYtuN67hdmyAVd0vcG8QkfxBf8RA4hv5sMwFRmxG0GuN2/iTa6Acp2XQstVk/nK8bE3BUioRRRNRK1/5amlDw==
@@ -169,7 +169,7 @@
     "@aws-cdk/cx-api" "1.79.0"
     constructs "^3.2.0"
 
-"@aws-cdk/aws-lambda-nodejs@^1.78.0":
+"@aws-cdk/aws-lambda-nodejs@^1.79.0":
   version "1.79.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-lambda-nodejs/-/aws-lambda-nodejs-1.79.0.tgz#f5a9b113a2dec4235a3b98084df285fa25e0880e"
   integrity sha512-uopHiZaxbGspkb7h8+ziW8sDNaMoZjPVPXaWxSNqUuPSy6tBBi7vqXN0VfJzr1Ll4zL1cm9h6R2saMTgs4nn2Q==
@@ -178,7 +178,7 @@
     "@aws-cdk/core" "1.79.0"
     constructs "^3.2.0"
 
-"@aws-cdk/aws-lambda@1.79.0", "@aws-cdk/aws-lambda@^1.78.0":
+"@aws-cdk/aws-lambda@1.79.0", "@aws-cdk/aws-lambda@^1.79.0":
   version "1.79.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-lambda/-/aws-lambda-1.79.0.tgz#dfdfd699d376d79a04e399a023b126e2904f5117"
   integrity sha512-K6A0nnYRO5MGq+0UdAXk1DRcOELWSPri4f6SNaWu0zhOEBKSAzcVRTJi/cNDs5VniGbGik4/3C5Hd6+8bp5nxA==
@@ -299,7 +299,7 @@
     string-width "^4.2.0"
     table "^6.0.4"
 
-"@aws-cdk/core@1.79.0", "@aws-cdk/core@^1.78.0":
+"@aws-cdk/core@1.79.0", "@aws-cdk/core@^1.79.0":
   version "1.79.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.79.0.tgz#164b2f01877259eeb1ba16617be103522ae934d6"
   integrity sha512-I+2GbQfbPy6TewnGbviE1W8cUhgBEA1mQLYm5gBj/Rzix1tCyaNvfYsBU3ipg3jIATpHsg1CzUq0zrumUnmnTg==
