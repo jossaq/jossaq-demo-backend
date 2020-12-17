@@ -13,9 +13,9 @@ export class BackendProcessor extends cdk.Construct {
   constructor(scope: cdk.Construct, id: string) {
     super(scope, id);
 
-    const entry = fs.existsSync(path.join(__dirname, 'handler.js'))
-      ? path.join(__dirname, 'handler.js') // local development
-      : path.join(__dirname, 'handler.js'); // when published in npm
+    const entry = fs.existsSync(path.join(__dirname, 'handler.ts'))
+      ? path.join(__dirname, 'handler.ts') // local development
+      : path.join(__dirname, 'handler.ts'); // when published in npm
 
 
     this.handler = new lambdanode.NodejsFunction(this, 'backend-processor', {
