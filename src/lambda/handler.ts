@@ -12,7 +12,7 @@ payloadParams.TableName=tableName;
 
 
 exports.handler = async (event: any, context: any) => {
-  console.log('Received event:', JSON.stringify(event, null, 2));
+  console.log('Received event:', JSON.stringify(event.body, null, 2));
   console.log('Received event:', JSON.stringify(context, null, 2));
 
   let body;
