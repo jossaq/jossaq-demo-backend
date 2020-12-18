@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const AWS = require('aws-sdk');
 const dynamo = new AWS.DynamoDB.DocumentClient();
 const tableName = process.env.TABLE_NAME;

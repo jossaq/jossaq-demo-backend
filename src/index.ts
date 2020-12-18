@@ -42,6 +42,8 @@ export class BackendProcessor extends cdk.Construct {
       },
     });
 
+    table.grantFullAccess(this.handler);
+
 
   }
 }
