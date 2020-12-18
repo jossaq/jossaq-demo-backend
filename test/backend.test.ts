@@ -10,10 +10,14 @@ test('BackendProcessor components', () => {
   const stack = new cdk.Stack(app, 'MyStack');
 
   // WHEN
-  new BackendProcessor(stack, 'p6-namer');
+  new BackendProcessor(stack, 'test-stack');
 
   // THEN
   expectCDK(stack).to(
     haveResource('AWS::Lambda::Function'),
+  );
+  //THEN
+  expectCDK(stack).to(
+    haveResource('AWS::DynamoDB::Table'),
   );
 });

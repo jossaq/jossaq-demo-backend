@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/jossaq/jossaq-demo-backend/compare/v0.0.5...v0.0.6) (2020-12-18)
+
+
+### Bug Fixes
+
+* **.gitignore:** add .idea to gitignore ([275b710](https://github.com/jossaq/jossaq-demo-backend/commit/275b710c48b3ad42bec376c017792bc4523846c4))
+
 ### [0.0.5](https://github.com/jossaq/jossaq-demo-backend/compare/v0.0.4...v0.0.5) (2020-12-17)
 
 ### [0.0.4](https://github.com/jossaq/jossaq-demo-backend/compare/v0.0.3...v0.0.4) (2020-12-17)
