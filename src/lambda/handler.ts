@@ -3,6 +3,13 @@
 const AWS = require('aws-sdk');
 const dynamo = new AWS.DynamoDB.DocumentClient();
 const tableName = process.env.TABLE_NAME;
+export class PayloadParams {
+  TableName?: string;
+  Item?: any;
+};
+const payloadParams = new PayloadParams();
+payloadParams.TableName=tableName;
+
 
 exports.handler = async (event: any, context: any) => {
   console.log('Received event:', JSON.stringify(event, null, 2));
@@ -13,6 +20,7 @@ exports.handler = async (event: any, context: any) => {
   const headers = {
     'Content-Type': 'application/json',
   };
+  payloadParams.Item=event.body;
 
   try {
     switch (event.httpMethod) {
