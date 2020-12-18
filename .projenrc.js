@@ -1,6 +1,7 @@
 const { AwsCdkConstructLibrary } = require('projen');
 
-const project = new AwsCdkConstructLibrary({
+let project;
+project = new AwsCdkConstructLibrary({
   authorAddress: 'jossaq@amazon.com',
   authorName: 'Juan Ossa',
   cdkVersion: '1.79.0',
@@ -28,6 +29,9 @@ const project = new AwsCdkConstructLibrary({
   bundledDeps: [
     'aws-lambda',
     'aws-sdk',
+  ],
+  gitignore: [
+    '.idea',
   ],
 
   codeCov: true,
