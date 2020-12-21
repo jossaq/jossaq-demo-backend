@@ -14,7 +14,7 @@ project = new AwsCdkConstructLibrary({
     '@aws-cdk/aws-lambda',
     '@aws-cdk/aws-lambda-nodejs',
   ],
-  releaseBranches: ['main', 'master'],
+  releaseBranches: ['master'],
 
   devDeps: [
     '@types/aws-lambda',
